@@ -1,17 +1,69 @@
 ---
 layout: default
 ---
-{% for post in site.posts %}
+
 <div class="row">
-    <article class="col-md-12">
-
-      <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-
-      <div class="entry">
-        {{ post.excerpt }}
-      </div>
-
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-    </article>
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <h1 class="display-4">Monday Night Skippys</h1>
+      <p class="lead">Welcome to the home of the World Famous UK&I Monday Night Skippys website.  The site aims to be a central place for all things related to the league.</p>
+    </div>
+  </div>
 </div>
-{% endfor %}
+
+<div class="row">
+  <div class="col-md-4">
+    <h2>
+      Current Standings
+    </h2>
+    <p>
+      Keep track of your favourite teams and drivers and keep track of where they are in the standings.
+    </p>
+    <p>
+      <a class="btn" href="https://www.danlisa.com/scoring/season_standings.php?season_id=7666" target="_blank">View standings »</a>
+    </p>
+  </div>
+  <div class="col-md-4">
+    <h2>
+      Broadcast
+    </h2>
+    <p>
+      View the latest broadcast on YouTube
+    </p>
+    <p>
+      <a class="btn" href="https://www.youtube.com/watch?v=F3Hdo3k_6X0&list=PL-wz-fxCI5TtKIy0O1wZWBvp9n91787bh">View broadcasts »</a>
+    </p>
+  </div>
+  <div class="col-md-4">
+    <h2>
+      Discord
+    </h2>
+    <p>
+      Chat to the community on the UK&I Discord server
+    </p>
+    <p>
+      <a class="btn" href="https://discordapp.com/channels/179012266975428608/342965213701734402">#skippymondays »</a>
+    </p>
+  </div>
+</div>
+
+
+<div class="row">
+  <div class="col-md-12">
+    <h3>Latest Blog Posts</h3>
+    {% for post in site.posts %}
+    <div class="row">
+        <article class="col-md-12">
+
+          <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+
+          <div class="entry">
+            {{ post.excerpt }}
+          </div>
+
+          <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+        </article>
+    </div>
+    {% endfor %}
+  </div>
+</div>

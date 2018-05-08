@@ -1,1 +1,21 @@
 theme: jekyll-theme-cayman
+
+collections:
+  competitors:
+    output: true
+
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "competitors" # previously `post` in Jekyll 2.2.
+    values:
+      layout: "competitor"
+
+# Exclude these files from your production _site
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - CNAME
