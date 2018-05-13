@@ -1,12 +1,12 @@
 ---
 layout: default
-permalink: /competitors/index.html
-title: Competitors
+permalink: /drivers/index.html
+title: Drivers
 ---
 <h2>{{ page.title }}</h2>
 
 <ul>
-{% assign items = site.competitors | sort: 'title' %}
+{% assign items = site.drivers | sort: 'title' %}
 {% for item in items %}
   <li><a href="{{ item.url }}">{{ item.title }}</a></li>
 {% endfor %}

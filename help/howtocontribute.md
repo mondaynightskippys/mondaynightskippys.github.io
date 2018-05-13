@@ -23,9 +23,9 @@ Once you have created a fork it should be visible in your own github space and l
 
 ### Make changes
 
-The next step is to make some changes to the site.  This example will cover updating a competitor profile.
+The next step is to make some changes to the site.  This example will cover updating a driver profile.
 
-* Click the `_competitors` folder, you should see a list of driver names, e.g. `darrell_taylor.md`
+* Click the `_driverss` folder, you should see a list of driver names, e.g. `darrell_taylor.md`
 * Click the driver you want to update, for this example use `darrell_taylor.md`
 * Click the edit icon: ![Edit](/images/help/contribute/edit.png){: height="50em" }
 
