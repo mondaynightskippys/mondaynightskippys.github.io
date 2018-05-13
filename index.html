@@ -7,68 +7,47 @@ layout: default
   <p class="lead">Welcome to the home of the World Famous UK&I Monday Night Skippys website.  The site aims to be a central place for all things related to the league.</p>
 </div>
 
-<!-- <div class="row">
-  <div class="jumbotron jumbotron-fluid">
-    <div class="container">
-      <h1 class="display-4">Monday Night Skippys</h1>
-      <p class="lead">Welcome to the home of the World Famous UK&I Monday Night Skippys website.  The site aims to be a central place for all things related to the league.</p>
+<div class="card-deck">
+  <div class="card">
+    <h5 class="card-header">Current Standings</h5>
+    <div class="card-body">
+      <p class="card-text">Keep track of your favourite teams and drivers and keep track of where they are in the standings.</p>
+    </div>
+    <div class="card-footer">
+      <a class="btn btn-primary" href="https://www.danlisa.com/scoring/season_standings.php?season_id=7666" target="_blank">View standings »</a>
     </div>
   </div>
-</div> -->
-
-<div class="row">
-  <div class="col-md-4">
-    <h2>
-      Current Standings
-    </h2>
-    <p>
-      Keep track of your favourite teams and drivers and keep track of where they are in the standings.
-    </p>
-    <p>
-      <a class="btn" href="https://www.danlisa.com/scoring/season_standings.php?season_id=7666" target="_blank">View standings »</a>
-    </p>
+  <div class="card">
+    <h5 class="card-header">Broadcast</h5>
+    <div class="card-body">
+      <p class="card-text">View the latest broadcast on YouTube</p>
+    </div>
+    <div class="card-footer">
+      <a class="btn btn-primary" href="https://www.youtube.com/watch?v=F3Hdo3k_6X0&list=PL-wz-fxCI5TtKIy0O1wZWBvp9n91787bh" target="_blank">View broadcasts »</a>
+    </div>
   </div>
-  <div class="col-md-4">
-    <h2>
-      Broadcast
-    </h2>
-    <p>
-      View the latest broadcast on YouTube
-    </p>
-    <p>
-      <a class="btn" href="https://www.youtube.com/watch?v=F3Hdo3k_6X0&list=PL-wz-fxCI5TtKIy0O1wZWBvp9n91787bh" target="_blank">View broadcasts »</a>
-    </p>
-  </div>
-  <div class="col-md-4">
-    <h2>
-      Discord
-    </h2>
-    <p>
-      Chat to the community on the UK&I Discord server
-    </p>
-    <p>
-      <a class="btn" href="https://discordapp.com/channels/179012266975428608/342965213701734402">#skippymondays »</a>
-    </p>
+  <div class="card">
+    <h5 class="card-header">Discord</h5>
+    <div class="card-body">
+      <p class="card-text">Chat to the community on the UK&I Discord server</p>
+    </div>
+    <div class="card-footer">
+      <a class="btn btn-primary" href="https://discordapp.com/channels/179012266975428608/342965213701734402">#skippymondays »</a>
+    </div>
   </div>
 </div>
 
-
-<div class="row">
-  <div class="col-md-12">
-    <h3>Latest Blog Posts</h3>
-    {% for post in site.posts %}
-    <div class="row">
-        <article class="col-md-12">
-
-          <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-
-          <div class="entry">
-            {{ post.excerpt }}
-          </div>
-
-          <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-        </article>
+<div class="card-deck mt-3">
+  {% for post in site.posts limit:3 %}
+  <div class="card">
+    <h5 class="card-header">{{ post.title }}</h5>
+    <div class="card-body">
+      <p class="card-text">{{ post.excerpt }}</p>
+      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
     </div>
-    {% endfor %}
+    <div class="card-footer">
+      <small class="text-muted">{{  post.date | date_to_long_string }}</small>
+    </div>
   </div>
+  {% endfor %}
 </div>
