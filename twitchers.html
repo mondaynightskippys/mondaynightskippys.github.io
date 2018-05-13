@@ -1,0 +1,29 @@
+---
+layout: default
+title: Twitch Streamers
+---
+
+<h1>{{ page.title }}</h1>
+
+{% assign total = site.data.twitchers | size %}
+{% assign columns = 2 %}
+{% assign rows = total | divided_by: columns %}
+{% assign rows = rows | plus: 1 %}
+
+{% assign index = 0 %}
+{% for row in (1..rows) %}
+<div class="card-deck mt-3">
+  {% for column in (1..columns) %}
+  {% assign twitcher = site.data.twitchers[index] %}
+  <div class="card">
+    <h5 class="card-header">{{ twitcher.name }}</h5>
+    <div class="card-body embed-responsive embed-responsive-16by9">
+      {% if twitcher %}
+      <iframe class="embed-responsive-item" src="https://player.twitch.tv/?channel={{ twitcher.channel }}" allowfullscreen></iframe>
+      {% endif %}
+    </div>
+  </div>
+  {% assign index = index | plus: 1 %}
+  {% endfor %}
+</div>
+{% endfor %}
