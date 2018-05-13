@@ -15,6 +15,9 @@ defaults:
     values:
       layout: "driver"
 
+plugins:
+  - jekyll-seo-tag
+
 # Exclude these files from your production _site
 exclude:
   - Gemfile
