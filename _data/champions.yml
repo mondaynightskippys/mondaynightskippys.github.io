@@ -1,0 +1,72 @@
+- year: 2011
+  seasons:
+    - season: 2
+      name: Marc Mercer
+    - season: 3
+      name: Stuart Adcock
+    - season: 4
+      name: Marc Mercer
+- year: 2012
+  seasons:
+    - season: 1
+      name: Marc Mercer
+    - season: 2
+      name: Stuart Adcock
+    - season: 3
+      name: George Streetly
+    - season: 4
+      name: Marc Mercer
+- year: 2013
+  seasons:
+    - season: 1
+      name: Wojciech Swirydowicz
+    - season: 2
+      name: Marc Mercer
+    - season: 3
+      name: Wojciech Swirydowicz
+    - season: 4
+      name: Blake Townend
+- year: 2014
+  seasons:
+    - season: 1
+      name: Marc Mercer
+    - season: 2
+      name: Marcus Hamilton
+    - season: 3
+      name: Sebastian Job
+    - season: 4
+      name: Marc Mercer
+- year: 2015
+  seasons:
+    - season: 1
+      name: Sebastian Job
+    - season: 2
+      name: Sebastian Job
+    - season: 3
+      name: Tom Ward
+    - season: 4
+      name: Marc Mercer
+- year: 2016
+  seasons:
+    - season: 1
+      name: Fahim Antoniades
+    - season: 2
+      name: Fahim Antoniades
+    - season: 3
+      name: Benny Simonsen
+    - season: 4
+      name: Tom Ward
+- year: 2017
+  seasons:
+    - season: 1
+      name: Tom Ward
+    - season: 2
+      name: Tom Ward
+    - season: 3
+      name: Tom Ward
+    - season: 4
+      name: Tom Ward
+- year: 2018
+  seasons:
+    - season: 1
+      name: Bill Fraser
