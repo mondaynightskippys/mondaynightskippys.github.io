@@ -11,8 +11,9 @@ I drifted away from actually racing GPL though then one day in Spring 2008 I rec
 ---
 I started racing in Monday Night Skippies when it grew out of the UK&I club combined MX5/Skippy series.  I was initially fairly competitive and managed a number of podiums and even a win from pole at Okayama in my best season when I finished third in the championship.
 ---
-My sojourn with the Radical meant I drifted out of the series for a year or two but I came back to find things had moved somewhat.  The series had also gained a lot of publicity through the excellent Racespot coverage and I found myself fighting ifor a place in teh mid 20s, podiums were a distant memory.
+My sojourn with the Radical meant I drifted out of the series for a year or two but I came back to find things had moved on somewhat.  The series had gained a lot of publicity through the excellent Racespot coverage and I found myself fighting for a place in the mid 20s, podiums were a distant memory.
 --
-I worked at it though and over the last couple of years I've managed to drag msel to a position where I get regular top tens despite the standard having risen even further.  On a good day I sometimes even see the winner!
+I worked at it though and over the last couple of years I've managed to drag myself back to a position where I get regular top tens despite the standard having risen even further.  On a good day I can sometimes even see the winner!
 ---
-I always try to pop into Racespot for a chat with the commentary team after the races and talk about any old rubbish.  It gives them somonr to talk to whe noone else turns up. :o)
+I always try to pop into Racespot for a chat with the commentary team after the races and talk about any old rubbish.  It gives them someone to talk to if noone else turns up. :o)
+---
