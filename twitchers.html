@@ -8,11 +8,11 @@ title: Twitch Streamers
 {% assign total = site.data.twitchers | size %}
 {% assign columns = 2 %}
 {% assign rows = total | divided_by: columns %}
+{% assign remainder = total | modulo: columns %}
 <!-- {{ total }} -->
 <!-- {{ columns }} -->
 <!-- {{ rows }} -->
-<!-- {{ rows | modulo: columns }} -->
-{% assign remainder = rows | modulo: columns %}
+<!-- {{ remainder }} -->
 {% assign rows = rows | plus: remainder %}
 
 {% assign index = 0 %}
