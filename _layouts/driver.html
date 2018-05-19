@@ -2,7 +2,16 @@
 layout: default
 ---
 
+{% if page.driver %}
+{% assign driver = site.data.drivers[page.driver] %}
+{% endif %}
+{% assign driverInfo = page.driver | size %}
+
 <h2>{{ page.title }}</h2>
+
+{% if driverInfo > 0 %}
+<a href='http://iracingbanner.com'><img src='http://iracingbanner.com/banner/style1/r/rkwsc/{{ driver.iracing_id }}.png' width='710' height='42'/></a>
+{% endif %}
 
 {{ content }}
 
