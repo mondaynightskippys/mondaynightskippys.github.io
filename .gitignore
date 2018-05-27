@@ -4,3 +4,4 @@ _site/
 .tags
 .tags1
 .DS_Store
+_vendor/
