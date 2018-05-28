@@ -17,6 +17,7 @@ defaults:
 
 plugins:
   - jekyll-seo-tag
+  - jekyll-theme-cayman
 
 # Exclude these files from your production _site
 exclude:
@@ -25,3 +26,5 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
+  - _vendor
+  - Rakefile

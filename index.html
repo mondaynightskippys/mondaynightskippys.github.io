@@ -15,10 +15,36 @@ layout: default
     </div>
 </div>
 
-<div class="card-deck mt-3">
+<!-- <div class="card-deck mt-3"> -->
+<div class="card-columns mt-3">
   <div class="card">
     <h5 class="card-header">Current Standings</h5>
     <div class="card-body">
+      <table class="table table-sm">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Name</th>
+            <th scope="col">Points</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for driver in site.data.standings limit:5 %}
+          {% if driver[1].change > 0 %}
+            {% assign class = 'table-success' %}
+          {% elsif driver[1].change > 0 == 'anonymous' %}
+            {% assign class = 'table-danger' %}
+          {% else %}
+            {% assign class = '' %}
+          {% endif %}
+            <tr class="{{ class }}">
+              <th scope="row">{{ driver[1].position }}</th>
+              <td>{{ driver[1].name }}</td>
+              <td>{{ driver[1].points }}</td>
+            </tr>
+          {% endfor %}
+        </tbody>
+      </table>
       <p class="card-text">Keep track of your favourite teams and drivers and keep track of where they are in the standings.</p>
     </div>
     <div class="card-footer">
@@ -43,9 +69,6 @@ layout: default
       <a class="btn btn-primary" href="https://discord.gg/Wsph2qs">#skippymondays »</a>
     </div>
   </div>
-</div>
-
-<div class="card-deck mt-3">
   {% for post in site.posts limit:3 %}
   <div class="card">
     <h5 class="card-header">{{ post.title }}</h5>
