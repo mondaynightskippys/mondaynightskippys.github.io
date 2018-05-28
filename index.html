@@ -32,7 +32,7 @@ layout: default
           {% for driver in site.data.standings limit:5 %}
           {% if driver[1].change > 0 %}
             {% assign class = 'table-success' %}
-          {% elsif driver[1].change > 0 == 'anonymous' %}
+          {% elsif driver[1].change < 0 %}
             {% assign class = 'table-danger' %}
           {% else %}
             {% assign class = '' %}
