@@ -15,7 +15,6 @@ layout: default
     </div>
 </div>
 
-<!-- <div class="card-deck mt-3"> -->
 <div class="card-columns mt-3">
   <div class="card">
     <h5 class="card-header">Current Standings</h5>
@@ -29,7 +28,7 @@ layout: default
           </tr>
         </thead>
         <tbody>
-          {% for driver in site.data.standings limit:5 %}
+          {% for driver in site.data.standings limit:10 %}
           {% if driver[1].change > 0 %}
             {% assign class = 'table-success' %}
           {% elsif driver[1].change < 0 %}
@@ -49,6 +48,17 @@ layout: default
     </div>
     <div class="card-footer">
       <a class="btn btn-primary" href="https://www.danlisa.com/scoring/season_standings.php?season_id=7666" target="_blank">View standings »</a>
+    </div>
+  </div>
+  <div class="card">
+    <h5 class="card-header">Current Champion</h5>
+    <div class="card-body">
+      {% assign cur_champ = site.data.champions.last.seasons.last %}
+      <p class="card-text">The current {{ site.data.champions.last.year }}S{{ cur_champ.season }} League Champion is:</p>
+      <h5 class="card-text text-center">{{ cur_champ.name }}</p>
+    </div>
+    <div class="card-footer">
+      <a class="btn btn-primary" href="/champions">View Past Champions »</a>
     </div>
   </div>
   <div class="card">
