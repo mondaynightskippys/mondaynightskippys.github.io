@@ -2,14 +2,21 @@
 layout: default
 ---
 
-<article class="post">
-  <h1>{{ page.title }}</h1>
 
-  <div class="entry">
-    {{ content }}
-  </div>
-
+<div class="px-3 py-3 pt-md-5 pb-md-4 mx-auto">
+  <h1 class="display-4">{{ page.title }}</h1>
+  {{ content }}
   <div class="date">
     Written on {{ page.date | date: "%B %e, %Y" }}
   </div>
-</article>
+</div>
+
+{% if page.youtube_id  %}
+<div class="row mx-5">
+    <div class="embed-responsive embed-responsive-16by9">
+      <iframe class="embed-responsive-item"
+      src="https://www.youtube.com/embed/{{ page.youtube_id }}"
+      allowfullscreen></iframe>
+    </div>
+</div>
+{% endif %}
