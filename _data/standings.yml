@@ -1,212 +1,224 @@
 ---
-simon_edwards:
-  name: Simon Edwards
-  position: 1
-  change: 1
-  starts: 6
-  counted: 6
-  wins: 1
-  top5: 5
-  top10: 5
-  points: 172
-  laps: 80
-  incidents: 35
 fahim_antoniades:
   name: Fahim Antoniades
-  position: 2
-  change: -1
-  starts: 6
-  counted: 6
+  position: 1
+  change: 0
+  starts: 8
+  counted: 8
   wins: 3
-  top5: 4
-  top10: 4
-  points: 169
-  laps: 89
-  incidents: 42
+  top5: 6
+  top10: 6
+  points: 226
+  laps: 112
+  incidents: 79
+simon_edwards:
+  name: Simon Edwards
+  position: 2
+  change: 0
+  starts: 8
+  counted: 8
+  wins: 1
+  top5: 6
+  top10: 7
+  points: 225
+  laps: 103
+  incidents: 59
 anthony_catt:
   name: Anthony Catt
   position: 3
   change: 0
-  starts: 6
-  counted: 6
-  wins: 0
-  top5: 2
-  top10: 5
-  points: 154
-  laps: 90
-  incidents: 31
-ben_daniels:
-  name: Ben Daniels
-  position: 4
-  change: 0
-  starts: 6
-  counted: 6
-  wins: 0
-  top5: 4
-  top10: 5
-  points: 141
-  laps: 88
-  incidents: 46
-clarke_williams:
-  name: Clarke Williams
-  position: 5
-  change: 2
-  starts: 5
-  counted: 5
+  starts: 8
+  counted: 8
   wins: 0
   top5: 3
-  top10: 4
-  points: 119
-  laps: 87
-  incidents: 50
-euan_pattinson:
-  name: Euan Pattinson
-  position: 6
-  change: 0
-  starts: 5
-  counted: 5
+  top10: 7
+  points: 201
+  laps: 113
+  incidents: 75
+bill_fraser:
+  name: Bill Fraser
+  position: 4
+  change: 1
+  starts: 7
+  counted: 7
+  wins: 2
+  top5: 4
+  top10: 6
+  points: 183
+  laps: 95
+  incidents: 101
+ben_daniels:
+  name: Ben Daniels
+  position: 5
+  change: -1
+  starts: 8
+  counted: 8
   wins: 0
-  top5: 1
-  top10: 5
-  points: 118
-  laps: 65
-  incidents: 46
+  top5: 4
+  top10: 6
+  points: 168
+  laps: 111
+  incidents: 115
+clarke_williams:
+  name: Clarke Williams
+  position: 6
+  change: 1
+  starts: 7
+  counted: 7
+  wins: 0
+  top5: 3
+  top10: 6
+  points: 167
+  laps: 110
+  incidents: 83
 matt_cox:
   name: Matt Cox
   position: 7
-  change: -2
-  starts: 6
-  counted: 6
+  change: 1
+  starts: 8
+  counted: 8
   wins: 0
   top5: 0
-  top10: 3
-  points: 112
-  laps: 90
-  incidents: 35
-bill_fraser:
-  name: Bill Fraser
-  position: 7
-  change: 1
-  starts: 5
-  counted: 5
+  top10: 5
+  points: 159
+  laps: 113
+  incidents: 67
+jack_hobbs:
+  name: Jack Hobbs
+  position: 8
+  change: 3
+  starts: 6
+  counted: 6
   wins: 1
-  top5: 2
-  top10: 4
-  points: 112
-  laps: 72
-  incidents: 69
+  top5: 4
+  top10: 5
+  points: 147
+  laps: 84
+  incidents: 80
 tom_ward:
   name: Tom Ward
   position: 9
-  change: 4
-  starts: 3
-  counted: 3
-  wins: 1
-  top5: 3
-  top10: 3
-  points: 110
-  laps: 35
-  incidents: 27
-simon_maltby:
-  name: Simon Maltby
-  position: 10
-  change: 0
-  starts: 6
-  counted: 6
-  wins: 0
-  top5: 0
-  top10: 0
-  points: 94
-  laps: 89
-  incidents: 47
-nicholas_vaughan_roberts:
-  name: Nicholas Vaughan-Roberts
-  position: 11
-  change: 1
+  change: -3
   starts: 4
   counted: 4
+  wins: 1
+  top5: 4
+  top10: 4
+  points: 145
+  laps: 49
+  incidents: 47
+euan_pattinson:
+  name: Euan Pattinson
+  position: 10
+  change: -1
+  starts: 7
+  counted: 7
   wins: 0
   top5: 1
-  top10: 2
-  points: 89
-  laps: 51
-  incidents: 27
-adrian_hendy:
-  name: Adrian Hendy
-  position: 12
-  change: -3
-  starts: 6
-  counted: 6
-  wins: 0
-  top5: 0
-  top10: 2
-  points: 85
-  laps: 88
-  incidents: 36
+  top10: 5
+  points: 136
+  laps: 83
+  incidents: 95
 robert_plumley:
   name: Robert Plumley
+  position: 11
+  change: 3
+  starts: 7
+  counted: 7
+  wins: 0
+  top5: 1
+  top10: 2
+  points: 120
+  laps: 88
+  incidents: 85
+darrell_taylor:
+  name: Darrell Taylor
+  position: 12
+  change: 3
+  starts: 8
+  counted: 8
+  wins: 0
+  top5: 0
+  top10: 2
+  points: 119
+  laps: 111
+  incidents: 63
+simon_maltby:
+  name: Simon Maltby
   position: 13
-  change: 1
+  change: -3
+  starts: 8
+  counted: 8
+  wins: 0
+  top5: 0
+  top10: 0
+  points: 109
+  laps: 112
+  incidents: 58
+nicholas_vaughan_roberts:
+  name: Nicholas Vaughan-Roberts
+  position: 14
+  change: -2
   starts: 5
   counted: 5
   wins: 0
   top5: 1
   top10: 2
-  points: 82
+  points: 104
   laps: 65
-  incidents: 38
-jack_hobbs:
-  name: Jack Hobbs
-  position: 14
-  change: 3
-  starts: 4
-  counted: 4
+  incidents: 61
+adrian_hendy:
+  name: Adrian Hendy
+  position: 15
+  change: -2
+  starts: 8
+  counted: 8
   wins: 0
-  top5: 2
-  top10: 3
-  points: 79
-  laps: 61
-  incidents: 43
+  top5: 0
+  top10: 2
+  points: 102
+  laps: 109
+  incidents: 58
 tony_stack:
   name: Tony Stack
-  position: 15
-  change: -1
-  starts: 5
-  counted: 5
+  position: 16
+  change: 0
+  starts: 7
+  counted: 7
   wins: 0
   top5: 0
   top10: 0
-  points: 76
-  laps: 65
-  incidents: 7
-darrell_taylor:
-  name: Darrell Taylor
-  position: 15
-  change: 1
-  starts: 6
-  counted: 6
-  wins: 0
-  top5: 0
-  top10: 1
-  points: 76
+  points: 101
   laps: 88
-  incidents: 37
+  incidents: 34
 christopher_kelsey:
   name: Christopher Kelsey
   position: 17
-  change: -6
-  starts: 5
-  counted: 5
+  change: 0
+  starts: 6
+  counted: 6
   wins: 0
   top5: 0
   top10: 1
-  points: 74
-  laps: 73
-  incidents: 38
+  points: 77
+  laps: 82
+  incidents: 56
+paul_thurston:
+  name: Paul Thurston
+  position: 17
+  change: 2
+  starts: 6
+  counted: 6
+  wins: 0
+  top5: 0
+  top10: 1
+  points: 77
+  laps: 84
+  incidents: 58
 james_mcritchie:
   name: James McRitchie
-  position: 18
-  change: 0
+  position: 19
+  change: -1
   starts: 5
   counted: 5
   wins: 0
@@ -215,22 +227,82 @@ james_mcritchie:
   points: 67
   laps: 52
   incidents: 53
-neil_dawkins:
-  name: Neil Dawkins
-  position: 19
-  change: 0
+barry_west:
+  name: Barry West
+  position: 20
+  change: 1
   starts: 6
   counted: 6
   wins: 0
   top5: 0
   top10: 0
+  points: 66
+  laps: 74
+  incidents: 54
+seymour_harding:
+  name: Seymour Harding
+  position: 21
+  change: 3
+  starts: 5
+  counted: 5
+  wins: 0
+  top5: 0
+  top10: 0
+  points: 53
+  laps: 63
+  incidents: 27
+neil_dawkins:
+  name: Neil Dawkins
+  position: 22
+  change: -2
+  starts: 8
+  counted: 8
+  wins: 0
+  top5: 0
+  top10: 0
+  points: 52
+  laps: 100
+  incidents: 46
+anthony_jones2:
+  name: Anthony Jones2
+  position: 22
+  change: 7
+  starts: 4
+  counted: 4
+  wins: 0
+  top5: 0
+  top10: 0
+  points: 52
+  laps: 39
+  incidents: 69
+christoph_grant:
+  name: Christoph Grant
+  position: 24
+  change: 0
+  starts: 5
+  counted: 5
+  wins: 0
+  top5: 0
+  top10: 2
   points: 51
-  laps: 77
-  incidents: 28
+  laps: 54
+  incidents: 32
+christopher_keeble:
+  name: Christopher Keeble
+  position: 24
+  change: -3
+  starts: 8
+  counted: 8
+  wins: 0
+  top5: 0
+  top10: 0
+  points: 51
+  laps: 109
+  incidents: 70
 stephen_nobes:
   name: Stephen Nobes
-  position: 20
-  change: 4
+  position: 26
+  change: -3
   starts: 4
   counted: 4
   wins: 0
@@ -239,46 +311,82 @@ stephen_nobes:
   points: 49
   laps: 57
   incidents: 46
-paul_thurston:
-  name: Paul Thurston
-  position: 21
-  change: 12
-  starts: 4
-  counted: 4
+john_mcgovern:
+  name: John McGovern
+  position: 27
+  change: 2
+  starts: 6
+  counted: 6
+  wins: 0
+  top5: 0
+  top10: 0
+  points: 44
+  laps: 90
+  incidents: 87
+tim_adcock:
+  name: Tim Adcock
+  position: 28
+  change: 6
+  starts: 5
+  counted: 5
+  wins: 0
+  top5: 0
+  top10: 0
+  points: 43
+  laps: 57
+  incidents: 66
+stewart_dick:
+  name: Stewart Dick
+  position: 28
+  change: -1
+  starts: 3
+  counted: 3
   wins: 0
   top5: 0
   top10: 1
-  points: 47
-  laps: 61
-  incidents: 29
-christoph_grant:
-  name: Christoph Grant
-  position: 22
-  change: -2
-  starts: 4
-  counted: 4
+  points: 43
+  laps: 28
+  incidents: 40
+richard_holburn:
+  name: Richard Holburn
+  position: 28
+  change: 4
+  starts: 5
+  counted: 5
   wins: 0
   top5: 0
-  top10: 2
-  points: 46
-  laps: 45
-  incidents: 21
-barry_west:
-  name: Barry West
-  position: 23
+  top10: 0
+  points: 43
+  laps: 59
+  incidents: 57
+charles_kellyman:
+  name: Charles Kellyman
+  position: 28
   change: 5
   starts: 4
   counted: 4
   wins: 0
   top5: 0
   top10: 0
-  points: 44
+  points: 43
+  laps: 52
+  incidents: 14
+rob_marshall:
+  name: Rob Marshall
+  position: 28
+  change: 7
+  starts: 3
+  counted: 3
+  wins: 0
+  top5: 0
+  top10: 0
+  points: 43
   laps: 51
-  incidents: 33
+  incidents: 49
 jake_riddington:
   name: Jake Riddington
-  position: 24
-  change: -3
+  position: 33
+  change: -7
   starts: 4
   counted: 4
   wins: 0
@@ -287,46 +395,22 @@ jake_riddington:
   points: 42
   laps: 57
   incidents: 72
-stewart_dick:
-  name: Stewart Dick
-  position: 25
-  change: -3
-  starts: 2
-  counted: 2
-  wins: 0
-  top5: 0
-  top10: 1
-  points: 41
-  laps: 19
-  incidents: 12
 chris_j_morris:
   name: Chris J Morris
-  position: 26
-  change: 2
-  starts: 6
-  counted: 6
+  position: 34
+  change: -6
+  starts: 8
+  counted: 8
   wins: 0
   top5: 0
   top10: 0
   points: 40
-  laps: 82
-  incidents: 34
-christopher_keeble:
-  name: Christopher Keeble
-  position: 27
-  change: -4
-  starts: 6
-  counted: 6
-  wins: 0
-  top5: 0
-  top10: 0
-  points: 39
-  laps: 87
-  incidents: 51
+  laps: 104
+  incidents: 54
 stuart_adcock:
   name: Stuart Adcock
-  position: 28
-  change: -4
+  position: 35
+  change: -6
   starts: 1
   counted: 1
   wins: 0
@@ -335,58 +419,46 @@ stuart_adcock:
   points: 35
   laps: 25
   incidents: 18
-john_mcgovern:
-  name: John McGovern
-  position: 28
-  change: -4
-  starts: 4
-  counted: 4
+llyr_hughes:
+  name: Llyr Hughes
+  position: 35
+  change: 0
+  starts: 1
+  counted: 1
   wins: 0
-  top5: 0
-  top10: 0
+  top5: 1
+  top10: 1
   points: 35
-  laps: 68
-  incidents: 50
-richard_holburn:
-  name: Richard Holburn
-  position: 30
-  change: -3
-  starts: 4
-  counted: 4
-  wins: 0
-  top5: 0
-  top10: 0
-  points: 33
-  laps: 50
-  incidents: 33
-seymour_harding:
-  name: Seymour Harding
-  position: 31
-  change: -1
+  laps: 9
+  incidents: 9
+nick_sigley:
+  name: Nick Sigley
+  position: 35
+  change: 15
   starts: 3
   counted: 3
   wins: 0
   top5: 0
-  top10: 0
-  points: 30
-  laps: 40
-  incidents: 15
-rob_marshall:
-  name: Rob Marshall
-  position: 32
-  change: 8
-  starts: 2
-  counted: 2
+  top10: 1
+  points: 35
+  laps: 24
+  incidents: 33
+jonathon_sheen:
+  name: Jonathon Sheen
+  position: 38
+  change: 2
+  starts: 5
+  counted: 5
   wins: 0
   top5: 0
   top10: 0
-  points: 29
-  laps: 42
-  incidents: 22
+  points: 31
+  laps: 68
+  incidents: 149
 rhys_saunders:
   name: Rhys Saunders
-  position: 33
-  change: -2
+  position: 39
+  change: -3
   starts: 3
   counted: 3
   wins: 0
@@ -397,8 +469,8 @@ rhys_saunders:
   incidents: 35
 dave_kirkman:
   name: Dave Kirkman
-  position: 34
-  change: -2
+  position: 40
+  change: -3
   starts: 2
   counted: 2
   wins: 0
@@ -409,8 +481,8 @@ dave_kirkman:
   incidents: 12
 ben_summers:
   name: Ben Summers
-  position: 34
-  change: 3
+  position: 40
+  change: -3
   starts: 6
   counted: 6
   wins: 0
@@ -421,7 +493,7 @@ ben_summers:
   incidents: 45
 simon_askew:
   name: Simon Askew
-  position: 36
+  position: 42
   change: -3
   starts: 2
   counted: 2
@@ -431,22 +503,10 @@ simon_askew:
   points: 26
   laps: 41
   incidents: 18
-charles_kellyman:
-  name: Charles Kellyman
-  position: 37
-  change: -2
-  starts: 2
-  counted: 2
-  wins: 0
-  top5: 0
-  top10: 0
-  points: 23
-  laps: 29
-  incidents: 4
 sara_savage:
   name: Sara Savage
-  position: 37
-  change: -2
+  position: 43
+  change: -3
   starts: 2
   counted: 2
   wins: 0
@@ -455,34 +515,34 @@ sara_savage:
   points: 23
   laps: 34
   incidents: 19
-jonathon_sheen:
-  name: Jonathon Sheen
-  position: 37
-  change: 5
+mark_young5:
+  name: Mark Young5
+  position: 43
+  change: 4
+  starts: 4
+  counted: 4
+  wins: 0
+  top5: 0
+  top10: 0
+  points: 23
+  laps: 63
+  incidents: 46
+paul_f_grillo:
+  name: Paul F Grillo
+  position: 45
+  change: -3
   starts: 3
   counted: 3
   wins: 0
   top5: 0
   top10: 0
-  points: 23
-  laps: 46
-  incidents: 40
-paul_f_grillo:
-  name: Paul F Grillo
-  position: 40
-  change: 19
-  starts: 2
-  counted: 2
-  wins: 0
-  top5: 0
-  top10: 0
   points: 22
-  laps: 32
-  incidents: 12
+  laps: 39
+  incidents: 34
 ryan_hewitt:
   name: Ryan Hewitt
-  position: 41
-  change: -4
+  position: 46
+  change: -3
   starts: 2
   counted: 2
   wins: 0
@@ -491,21 +551,21 @@ ryan_hewitt:
   points: 21
   laps: 8
   incidents: 13
-tim_adcock:
-  name: Tim Adcock
-  position: 42
+chris_malcolm:
+  name: Chris Malcolm
+  position: 46
   change: -3
-  starts: 3
-  counted: 3
+  starts: 1
+  counted: 1
   wins: 0
   top5: 0
-  top10: 0
-  points: 20
-  laps: 34
-  incidents: 24
+  top10: 1
+  points: 21
+  laps: 14
+  incidents: 19
 ian_bassi:
   name: Ian Bassi
-  position: 43
+  position: 48
   change: -3
   starts: 3
   counted: 3
@@ -515,33 +575,33 @@ ian_bassi:
   points: 18
   laps: 34
   incidents: 23
-anthony_jones2:
-  name: Anthony Jones2
-  position: 44
-  change: -2
-  starts: 2
-  counted: 2
-  wins: 0
-  top5: 0
-  top10: 0
-  points: 16
-  laps: 16
-  incidents: 21
 dave_m_dowson:
   name: Dave M Dowson
-  position: 45
-  change: 8
-  starts: 4
-  counted: 4
+  position: 48
+  change: -3
+  starts: 5
+  counted: 5
   wins: 0
   top5: 0
   top10: 0
-  points: 15
-  laps: 58
-  incidents: 41
+  points: 18
+  laps: 72
+  incidents: 57
+karl_handley:
+  name: Karl Handley
+  position: 50
+  change: -3
+  starts: 5
+  counted: 5
+  wins: 0
+  top5: 0
+  top10: 0
+  points: 17
+  laps: 67
+  incidents: 72
 michael_a_jones:
   name: Michael A Jones
-  position: 46
+  position: 51
   change: -2
   starts: 2
   counted: 2
@@ -551,22 +611,10 @@ michael_a_jones:
   points: 14
   laps: 38
   incidents: 17
-mark_young5:
-  name: Mark Young5
-  position: 47
-  change: -2
-  starts: 2
-  counted: 2
-  wins: 0
-  top5: 0
-  top10: 0
-  points: 13
-  laps: 40
-  incidents: 13
 daniel_j_cooke:
   name: Daniel J Cooke
-  position: 48
-  change: -2
+  position: 52
+  change: -1
   starts: 2
   counted: 2
   wins: 0
@@ -575,22 +623,10 @@ daniel_j_cooke:
   points: 12
   laps: 39
   incidents: 25
-karl_handley:
-  name: Karl Handley
-  position: 49
-  change: -1
-  starts: 3
-  counted: 3
-  wins: 0
-  top5: 0
-  top10: 0
-  points: 11
-  laps: 44
-  incidents: 23
 keith_sharp:
   name: Keith Sharp
-  position: 49
-  change: -2
+  position: 53
+  change: -1
   starts: 2
   counted: 2
   wins: 0
@@ -599,10 +635,22 @@ keith_sharp:
   points: 11
   laps: 38
   incidents: 11
+karl_townsend:
+  name: Karl Townsend
+  position: 53
+  change: 0
+  starts: 1
+  counted: 1
+  wins: 0
+  top5: 0
+  top10: 0
+  points: 11
+  laps: 9
+  incidents: 28
 jordan_a_hacker:
   name: Jordan A Hacker
-  position: 51
-  change: -3
+  position: 55
+  change: -2
   starts: 2
   counted: 2
   wins: 0
@@ -613,7 +661,7 @@ jordan_a_hacker:
   incidents: 11
 chris_bassett2:
   name: Chris Bassett2
-  position: 52
+  position: 56
   change: -2
   starts: 1
   counted: 1
@@ -625,7 +673,7 @@ chris_bassett2:
   incidents: 5
 john_a_jenkins:
   name: John A Jenkins
-  position: 52
+  position: 56
   change: -2
   starts: 1
   counted: 1
@@ -637,8 +685,8 @@ john_a_jenkins:
   incidents: 2
 allan_paterson:
   name: Allan Paterson
-  position: 52
-  change: 5
+  position: 56
+  change: -2
   starts: 3
   counted: 3
   wins: 0
@@ -649,8 +697,8 @@ allan_paterson:
   incidents: 22
 mark_day:
   name: Mark Day
-  position: 55
-  change: -3
+  position: 59
+  change: -2
   starts: 2
   counted: 2
   wins: 0
@@ -659,9 +707,21 @@ mark_day:
   points: 7
   laps: 19
   incidents: 24
+kieran_o_flynn:
+  name: Kieran O Flynn
+  position: 59
+  change: -2
+  starts: 3
+  counted: 3
+  wins: 0
+  top5: 0
+  top10: 0
+  points: 7
+  laps: 40
+  incidents: 36
 andrew_bolton:
   name: Andrew Bolton
-  position: 56
+  position: 61
   change: -2
   starts: 2
   counted: 2
@@ -673,7 +733,7 @@ andrew_bolton:
   incidents: 21
 nicholas_james_gerard:
   name: Nicholas James Gerard
-  position: 56
+  position: 61
   change: -2
   starts: 2
   counted: 2
@@ -685,7 +745,7 @@ nicholas_james_gerard:
   incidents: 16
 mark_hesling:
   name: Mark Hesling
-  position: 56
+  position: 61
   change: -2
   starts: 1
   counted: 1
@@ -697,8 +757,8 @@ mark_hesling:
   incidents: 2
 darren_c_morris:
   name: Darren C Morris
-  position: 59
-  change: 2
+  position: 64
+  change: -2
   starts: 2
   counted: 2
   wins: 0
@@ -709,7 +769,7 @@ darren_c_morris:
   incidents: 22
 raivis_sisenis:
   name: Raivis Sisenis
-  position: 59
+  position: 64
   change: -2
   starts: 2
   counted: 2
@@ -719,33 +779,33 @@ raivis_sisenis:
   points: 4
   laps: 18
   incidents: 25
-kieran_o_flynn:
-  name: Kieran O Flynn
-  position: 61
-  change: 0
+simon_thornes:
+  name: Simon Thornes
+  position: 66
+  change: -2
+  starts: 4
+  counted: 4
+  wins: 0
+  top5: 0
+  top10: 0
+  points: 2
+  laps: 39
+  incidents: 41
+alan_chapman:
+  name: Alan Chapman
+  position: 67
+  change: -2
   starts: 2
   counted: 2
   wins: 0
   top5: 0
   top10: 0
-  points: 2
-  laps: 26
-  incidents: 19
-alan_chapman:
-  name: Alan Chapman
-  position: 62
-  change: -2
-  starts: 1
-  counted: 1
-  wins: 0
-  top5: 0
-  top10: 0
   points: 1
-  laps: 15
-  incidents: 14
+  laps: 19
+  incidents: 38
 martin_brandon:
   name: Martin Brandon
-  position: 63
+  position: 68
   change: -2
   starts: 2
   counted: 2
@@ -757,7 +817,7 @@ martin_brandon:
   incidents: 14
 peter_cowan:
   name: Peter Cowan
-  position: 63
+  position: 68
   change: -2
   starts: 1
   counted: 1
@@ -769,7 +829,7 @@ peter_cowan:
   incidents: 12
 s_j_dunning:
   name: S J Dunning
-  position: 63
+  position: 68
   change: -2
   starts: 1
   counted: 1
@@ -779,9 +839,21 @@ s_j_dunning:
   points: 0
   laps: 1
   incidents: 2
+matthew_forrest2:
+  name: Matthew Forrest2
+  position: 68
+  change: 0
+  starts: 1
+  counted: 1
+  wins: 0
+  top5: 0
+  top10: 0
+  points: 0
+  laps: 9
+  incidents: 15
 david_hardwick:
   name: David Hardwick
-  position: 63
+  position: 68
   change: -2
   starts: 1
   counted: 1
@@ -793,7 +865,7 @@ david_hardwick:
   incidents: 12
 neil_a__jackson:
   name: Neil A. Jackson
-  position: 63
+  position: 68
   change: -2
   starts: 1
   counted: 1
@@ -805,7 +877,7 @@ neil_a__jackson:
   incidents: 16
 john_jarratt:
   name: John Jarratt
-  position: 63
+  position: 68
   change: -2
   starts: 2
   counted: 2
@@ -817,7 +889,7 @@ john_jarratt:
   incidents: 9
 david_monteiro:
   name: David Monteiro
-  position: 63
+  position: 68
   change: -2
   starts: 2
   counted: 2
@@ -827,33 +899,33 @@ david_monteiro:
   points: 0
   laps: 15
   incidents: 27
-nick_sigley:
-  name: Nick Sigley
-  position: 63
-  change: -2
+robbie_tear:
+  name: Robbie Tear
+  position: 68
+  change: 0
   starts: 1
   counted: 1
   wins: 0
   top5: 0
   top10: 0
   points: 0
-  laps: 1
-  incidents: 11
-simon_thornes:
-  name: Simon Thornes
-  position: 63
-  change: -2
-  starts: 2
-  counted: 2
+  laps: 8
+  incidents: 17
+jamie_d_thomas:
+  name: Jamie D Thomas
+  position: 68
+  change: 0
+  starts: 1
+  counted: 1
   wins: 0
   top5: 0
   top10: 0
   points: 0
-  laps: 16
-  incidents: 22
+  laps: 8
+  incidents: 11
 mark_turner4:
   name: Mark Turner4
-  position: 63
+  position: 68
   change: -2
   starts: 2
   counted: 2
@@ -863,3 +935,15 @@ mark_turner4:
   points: 0
   laps: 14
   incidents: 13
+fraser_williamson:
+  name: Fraser Williamson
+  position: 68
+  change: 0
+  starts: 1
+  counted: 1
+  wins: 0
+  top5: 0
+  top10: 0
+  points: 0
+  laps: 7
+  incidents: 21
