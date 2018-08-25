@@ -49,5 +49,6 @@ end.to_h
 
 File.write('standings.yml', data.to_yaml)
 
-# Get latest info
-# page.xpath('//select[@name="schedule_id"]/option[@selected]').text
+# What round are the results showing?
+info = {'latest_round' => page.xpath('//select[@name="schedule_id"]/option[@selected]').text}
+File.write('standings_info.yml', info.to_yaml)
