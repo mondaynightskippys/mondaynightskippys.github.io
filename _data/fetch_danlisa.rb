@@ -9,7 +9,7 @@
 require 'nokogiri'
 require 'open-uri'
 
-page = Nokogiri::HTML(open("https://www.danlisa.com/scoring/season_standings.php?season_id=8203"))
+page = Nokogiri::HTML(open("https://www.danlisa.com/scoring/season_standings.php?season_id=8578"))
 
 table = page.xpath('//table[id="driver_table"]')
 
