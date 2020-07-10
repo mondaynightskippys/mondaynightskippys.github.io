@@ -33,3 +33,6 @@ jobs:
           cd _data
           ruby fetch_danlisa.rb
           cat standings_info.yml
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v2
