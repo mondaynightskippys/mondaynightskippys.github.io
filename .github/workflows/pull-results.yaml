@@ -1,7 +1,8 @@
 name: Pull Results
 
-# TODO: change to schedule
-on: push
+on:
+  schedule:
+    - cron:  '0 12 * * *'
 
 jobs:
   pull-results:
@@ -32,7 +33,6 @@ jobs:
         run: |
           cd _data
           ruby fetch_danlisa.rb
-          cat standings_info.yml
 
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v2
