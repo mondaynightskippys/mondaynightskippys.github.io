@@ -28,7 +28,8 @@ jobs:
           bundle update --bundler
           bundle install --path vendor/bundle
 
-      - name: Rubocop
+      - name: Fetch Results
         run: |
           cd _data
           ruby fetch_danlisa.rb
+          cat standings_info.yml
