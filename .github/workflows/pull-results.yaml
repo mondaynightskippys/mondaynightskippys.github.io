@@ -1,0 +1,38 @@
+name: Pull Results
+
+on:
+  schedule:
+    - cron:  '0 12 * * *'
+
+jobs:
+  pull-results:
+    name: Pull results
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - uses: actions/setup-ruby@v1
+        with:
+          ruby-version: '2.7'
+
+      - name: Cache bundle install
+        uses: actions/cache@v2
+        with:
+          path: vendor/bundle
+          key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-gems-
+
+      - name: Bundle install
+        run: |
+          bundle update --bundler
+          bundle install --path vendor/bundle
+
+      - name: Fetch Results
+        run: |
+          cd _data
+          ruby fetch_danlisa.rb
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v2
